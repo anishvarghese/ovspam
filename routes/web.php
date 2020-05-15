@@ -16,4 +16,4 @@ $router->get('/', function () use ($router) {
     echo "hello world";
 });
 
-$router->post('/test', 'UserController@testvoice');
+$router->post('/spamuser', 'UserController@testvoice');
